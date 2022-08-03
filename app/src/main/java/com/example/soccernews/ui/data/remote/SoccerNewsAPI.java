@@ -1,4 +1,4 @@
-package com.example.soccernews.ui.data;
+package com.example.soccernews.ui.data.remote;
 
 import com.example.soccernews.ui.news.News;
 
