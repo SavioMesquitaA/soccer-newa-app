@@ -1,6 +1,6 @@
-package com.example.soccernews.ui.data.remote;
+package com.example.soccernews.data.remote;
 
-import com.example.soccernews.ui.news.News;
+import com.example.soccernews.domain.News;
 
 import java.util.List;
 

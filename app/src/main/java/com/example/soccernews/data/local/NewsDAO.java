@@ -1,4 +1,4 @@
-package com.example.soccernews.ui.data.local;
+package com.example.soccernews.data.local;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.example.soccernews.ui.news.News;
+import com.example.soccernews.domain.News;
 
 import java.util.List;
 
@@ -17,5 +17,5 @@ public interface NewsDAO {
     void save(News news);
 
     @Query("SELECT * FROM news WHERE favorito = 1")
-    List<News> loadFavoriteNews();
+    LiveData<List<News>> loadFavoriteNews();
 }

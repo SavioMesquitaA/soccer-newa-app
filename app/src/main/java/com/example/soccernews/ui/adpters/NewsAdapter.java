@@ -1,4 +1,4 @@
-package com.example.soccernews.ui.news;
+package com.example.soccernews.ui.adpters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.soccernews.R;
 import com.example.soccernews.databinding.NewsItemBinding;
+import com.example.soccernews.domain.News;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
